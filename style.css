@@ -303,8 +303,9 @@ width: 300px;
 }
 
 .portfolio{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+  
    
 }
 
@@ -315,6 +316,8 @@ width: 300px;
 }
 
 .portfolio-img{
+    height: 400px;
+    width: 500px;
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1)
     opacity 250ms linear;
 
